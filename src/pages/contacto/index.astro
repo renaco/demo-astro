@@ -26,14 +26,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         class="col-span-full p-0 mx-0 mt-0 mb-4 text-2xl font-semibold tracking-tight leading-9 text-sky-800"
         style="outline: 0px;"
       >
-        Tu participación es esencial para nosotros.Gracias por tu preferencia.
+        Tu participación es esencial para nosotros. Gracias por tu preferencia.
       </p>
       <div
-        class="grid gap-5 justify-center my-2 mx-auto text-sky-800"
-        style="grid-template-columns: 50% 50%; grid-column: 1 / 2;"
+        class="grid gap-5 justify-center my-2 mx-auto text-sky-800 contacto-grid"
       >
         <div
-          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800"
+          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800 contacto-grid__item"
           style="outline: 0px;"
         >
           <p
@@ -53,14 +52,14 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             <a
               href="mailto:contacto@eluniversal.com.mx"
               class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
-              style="outline: 0px; text-decoration: none;"
+              style="outline: 0px; text-decoration: none; color: #ecf0f1;"
               >contacto@eluniversal.com.mx</a
             >
           </p>
         </div>
 
         <div
-          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800"
+          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800 contacto-grid__item"
           style="outline: 0px;"
         >
           <p
@@ -80,13 +79,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             <a
               href="mailto:denuncia@eluniversal.com.mx"
               class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
-              style="outline: 0px; text-decoration: none;"
+              style="outline: 0px; text-decoration: none; color: #ecf0f1;"
               >denuncia@eluniversal.com.mx</a
             >
           </p>
         </div>
         <div
-          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800"
+          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800 contacto-grid__item"
           style="outline: 0px;"
         >
           <p
@@ -106,13 +105,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             <a
               href="mailto:publicidad@eluniversal.com.mx"
               class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
-              style="outline: 0px; text-decoration: none;"
+              style="outline: 0px; text-decoration: none; color: #ecf0f1;"
               >publicidad@eluniversal.com.mx</a
             >
           </p>
         </div>
         <div
-          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800"
+          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800 contacto-grid__item"
           style="outline: 0px;"
         >
           <p
@@ -132,20 +131,20 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             <a
               href="mailto:suscripciones@eluniversal.com.mx"
               class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
-              style="outline: 0px; text-decoration: none;"
+              style="outline: 0px; text-decoration: none; color: #ecf0f1;"
               >suscripciones@eluniversal.com.mx</a
             ><br />
             <a
               href="tel:5552370800"
               class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
-              style="outline: 0px; text-decoration: none;"
+              style="outline: 0px; text-decoration: none; color: #ecf0f1;"
             >
               Teléfono Directo: 55 5237 0800</a
             ><br />
             <a
-              href="https://api.whatsapp.com/send?phone=5548491523&text=Hola, Nececito mas informacion!"
+              href="https://api.whatsapp.com/send?phone=5548491523&text=Hola, Nececito más informacion!"
               class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
-              style="outline: 0px; text-decoration: none;"
+              style="outline: 0px; text-decoration: none; color: #ecf0f1;"
             >
               WhatsApp: 55 4849 1523</a
             >
@@ -153,6 +152,24 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         </div>
       </div>
     </main>
+    <style>
+      .contacto-grid {
+        grid-template-columns: 100%;
+        max-width: 66rem;
+      }
+
+      .contacto-grid__item {
+        padding: 36px 0 24px;
+        background-color: #005383;
+        border-radius: 8px;
+      }
+
+      @media screen and (min-width: 480px) {
+        .contacto-grid {
+          grid-template-columns: 50% 50%;
+        }
+      }
+    </style>
     <Footer />
   </body>
 </html>
