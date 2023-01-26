@@ -1,0 +1,158 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <p
+        class="col-span-full p-0 m-0 text-2xl tracking-tight leading-9 text-black"
+        style="outline: 0px;"
+      >
+        Queremos saber qué opinas sobre los temas que te interesan. Desde aquí
+        puedes enviarnos comentarios, denuncias, sugerencias, imágenes, videos o
+        ilustraciones que desees compartir con nosotros.
+      </p>
+      <p
+        class="col-span-full p-0 mx-0 mt-0 mb-4 text-2xl font-semibold tracking-tight leading-9 text-sky-800"
+        style="outline: 0px;"
+      >
+        Tu participación es esencial para nosotros.Gracias por tu preferencia.
+      </p>
+      <div
+        class="grid gap-5 justify-center my-2 mx-auto text-sky-800"
+        style="grid-template-columns: 50% 50%; grid-column: 1 / 2;"
+      >
+        <div
+          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800"
+          style="outline: 0px;"
+        >
+          <p
+            class="p-0 m-0 text-base font-bold tracking-tight leading-6 text-center text-sky-800"
+            style="outline: 0px;"
+          >
+            <svg
+              style="margin:0 auto;"
+              width="50"
+              height="50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              ><path
+                d="M50 19.204a1.696 1.696 0 0 0-.108-.432.866.866 0 0 0-.143-.288s0-.144-.089-.198l-.16-.144-.09-.127L30.767 2.131A8.882 8.882 0 0 0 25 0a8.882 8.882 0 0 0-5.768 2.131L.625 18.015l-.09.127-.16.144v.198a.868.868 0 0 0-.143.288 1.7 1.7 0 0 0-.232.432v25.393c0 1.433.564 2.807 1.569 3.82A5.335 5.335 0 0 0 5.357 50h39.286c1.42 0 2.783-.57 3.788-1.582A5.427 5.427 0 0 0 50 44.598V19.203ZM34.266 32.64l12.161-9.563v18.01l-12.161-8.447ZM21.535 4.977A5.331 5.331 0 0 1 25 3.695c1.269 0 2.497.455 3.465 1.282l16.91 14.407L31.09 30.55l-1.053-.756a9.002 9.002 0 0 0-5.09-1.58c-1.815 0-3.588.55-5.089 1.58l-1.053.756L4.518 19.384 21.535 4.977Zm-17.964 18.1 12.196 9.563L3.57 41.158V23.077Zm41.071 23.321H5.357a1.79 1.79 0 0 1-1.571-1.009l18.16-12.606a5.326 5.326 0 0 1 6.107 0L46.215 45.39a1.79 1.79 0 0 1-1.572 1.01Z"
+                fill="#0064B4"></path></svg
+            >
+            <a
+              href="mailto:contacto@eluniversal.com.mx"
+              class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
+              style="outline: 0px; text-decoration: none;"
+              >contacto@eluniversal.com.mx</a
+            >
+          </p>
+        </div>
+
+        <div
+          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800"
+          style="outline: 0px;"
+        >
+          <p
+            class="p-0 m-0 text-base font-bold tracking-tight leading-6 text-center text-sky-800"
+            style="outline: 0px;"
+          >
+            <svg
+              style="margin:0 auto;"
+              width="50"
+              height="50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              ><path
+                d="M50 19.204a1.696 1.696 0 0 0-.108-.432.866.866 0 0 0-.143-.288s0-.144-.089-.198l-.16-.144-.09-.127L30.767 2.131A8.882 8.882 0 0 0 25 0a8.882 8.882 0 0 0-5.768 2.131L.625 18.015l-.09.127-.16.144v.198a.868.868 0 0 0-.143.288 1.7 1.7 0 0 0-.232.432v25.393c0 1.433.564 2.807 1.569 3.82A5.335 5.335 0 0 0 5.357 50h39.286c1.42 0 2.783-.57 3.788-1.582A5.427 5.427 0 0 0 50 44.598V19.203ZM34.266 32.64l12.161-9.563v18.01l-12.161-8.447ZM21.535 4.977A5.331 5.331 0 0 1 25 3.695c1.269 0 2.497.455 3.465 1.282l16.91 14.407L31.09 30.55l-1.053-.756a9.002 9.002 0 0 0-5.09-1.58c-1.815 0-3.588.55-5.089 1.58l-1.053.756L4.518 19.384 21.535 4.977Zm-17.964 18.1 12.196 9.563L3.57 41.158V23.077Zm41.071 23.321H5.357a1.79 1.79 0 0 1-1.571-1.009l18.16-12.606a5.326 5.326 0 0 1 6.107 0L46.215 45.39a1.79 1.79 0 0 1-1.572 1.01Z"
+                fill="#0064B4"></path></svg
+            >
+            <a
+              href="mailto:denuncia@eluniversal.com.mx"
+              class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
+              style="outline: 0px; text-decoration: none;"
+              >denuncia@eluniversal.com.mx</a
+            >
+          </p>
+        </div>
+        <div
+          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800"
+          style="outline: 0px;"
+        >
+          <p
+            class="p-0 m-0 text-base font-bold tracking-tight leading-6 text-center text-sky-800"
+            style="outline: 0px;"
+          >
+            <svg
+              style="margin:0 auto;"
+              width="50"
+              height="50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              ><path
+                d="M50 19.204a1.696 1.696 0 0 0-.108-.432.866.866 0 0 0-.143-.288s0-.144-.089-.198l-.16-.144-.09-.127L30.767 2.131A8.882 8.882 0 0 0 25 0a8.882 8.882 0 0 0-5.768 2.131L.625 18.015l-.09.127-.16.144v.198a.868.868 0 0 0-.143.288 1.7 1.7 0 0 0-.232.432v25.393c0 1.433.564 2.807 1.569 3.82A5.335 5.335 0 0 0 5.357 50h39.286c1.42 0 2.783-.57 3.788-1.582A5.427 5.427 0 0 0 50 44.598V19.203ZM34.266 32.64l12.161-9.563v18.01l-12.161-8.447ZM21.535 4.977A5.331 5.331 0 0 1 25 3.695c1.269 0 2.497.455 3.465 1.282l16.91 14.407L31.09 30.55l-1.053-.756a9.002 9.002 0 0 0-5.09-1.58c-1.815 0-3.588.55-5.089 1.58l-1.053.756L4.518 19.384 21.535 4.977Zm-17.964 18.1 12.196 9.563L3.57 41.158V23.077Zm41.071 23.321H5.357a1.79 1.79 0 0 1-1.571-1.009l18.16-12.606a5.326 5.326 0 0 1 6.107 0L46.215 45.39a1.79 1.79 0 0 1-1.572 1.01Z"
+                fill="#0064B4"></path></svg
+            >
+            <a
+              href="mailto:publicidad@eluniversal.com.mx"
+              class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
+              style="outline: 0px; text-decoration: none;"
+              >publicidad@eluniversal.com.mx</a
+            >
+          </p>
+        </div>
+        <div
+          class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800"
+          style="outline: 0px;"
+        >
+          <p
+            class="p-0 m-0 text-base font-bold tracking-tight leading-6 text-center text-sky-800"
+            style="outline: 0px;"
+          >
+            <svg
+              style="margin:0 auto;"
+              width="50"
+              height="50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              ><path
+                d="M50 19.204a1.696 1.696 0 0 0-.108-.432.866.866 0 0 0-.143-.288s0-.144-.089-.198l-.16-.144-.09-.127L30.767 2.131A8.882 8.882 0 0 0 25 0a8.882 8.882 0 0 0-5.768 2.131L.625 18.015l-.09.127-.16.144v.198a.868.868 0 0 0-.143.288 1.7 1.7 0 0 0-.232.432v25.393c0 1.433.564 2.807 1.569 3.82A5.335 5.335 0 0 0 5.357 50h39.286c1.42 0 2.783-.57 3.788-1.582A5.427 5.427 0 0 0 50 44.598V19.203ZM34.266 32.64l12.161-9.563v18.01l-12.161-8.447ZM21.535 4.977A5.331 5.331 0 0 1 25 3.695c1.269 0 2.497.455 3.465 1.282l16.91 14.407L31.09 30.55l-1.053-.756a9.002 9.002 0 0 0-5.09-1.58c-1.815 0-3.588.55-5.089 1.58l-1.053.756L4.518 19.384 21.535 4.977Zm-17.964 18.1 12.196 9.563L3.57 41.158V23.077Zm41.071 23.321H5.357a1.79 1.79 0 0 1-1.571-1.009l18.16-12.606a5.326 5.326 0 0 1 6.107 0L46.215 45.39a1.79 1.79 0 0 1-1.572 1.01Z"
+                fill="#0064B4"></path></svg
+            >
+            <a
+              href="mailto:suscripciones@eluniversal.com.mx"
+              class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
+              style="outline: 0px; text-decoration: none;"
+              >suscripciones@eluniversal.com.mx</a
+            ><br />
+            <a
+              href="tel:5552370800"
+              class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
+              style="outline: 0px; text-decoration: none;"
+            >
+              Teléfono Directo: 55 5237 0800</a
+            ><br />
+            <a
+              href="https://api.whatsapp.com/send?phone=5548491523&text=Hola, Nececito mas informacion!"
+              class="p-0 m-0 font-bold tracking-tight leading-6 text-center text-gray-100 hover:cursor-pointer"
+              style="outline: 0px; text-decoration: none;"
+            >
+              WhatsApp: 55 4849 1523</a
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
