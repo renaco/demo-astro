@@ -1,0 +1,79 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <!-- <div
+        class="grid p-0 m-0 h-full text-lg leading-7 text-justify text-black"
+        style="outline: 0px; column-gap: 20px; grid-template-columns: 71.6666px auto;"
+      ></div> -->
+
+      <div
+        class="p-0 m-0 h-full text-lg leading-7 text-justify text-black"
+        style="outline: 0px; column-gap: 20px; grid-template-columns: 71.6666px auto;"
+      >
+        <div
+          class="block my-4 mx-auto h-6 text-2xl font-bold leading-7 text-center break-all bg-neutral-400 text-sky-700"
+          style='grid-area: 1 / 1 / -1 / 2; content: "";'
+        >
+          1916
+        </div>
+
+        <p class="mt-2 text-lg leading-7 text-justify text-black">
+          <span
+            class="p-0 m-0 text-lg leading-7 text-justify text-sky-700"
+            style="outline: 0px;">EL UNIVERSAL</span
+          >
+          nació el 1 de octubre de 1916 a iniciativa del ingeniero Félix Fulgencio
+          Palavicini, quien formaba parte del Congreso Constituyente de Querétaro.
+          El objetivo del nuevo diario fue dar la palabra a los postulados emanados
+          de la Revolución Mexicana, cuando comenzaba el Congreso Constituyente.
+          En la esquina de Madero y Motolinía, en el centro de la capital, se ubicó
+          la primera redacción y los talleres del periódico provistos de una rotativa
+          Goss. En esta máquina se imprimió la primera Constitución Política de los
+          Estados Unidos Mexicanos en 1917.
+        </p>
+        <p class="mt-2 text-lg leading-7 text-justify text-black">
+          El diario defendió los postulados de la Carta Magna y se propuso
+          fortalecer la reconstrucción económica, social y jurídica del país,
+          con la aplicación de un ideario basado en la rehabilitación de la
+          autoridad civil, antirreeleccionismo, apego a las garantías
+          constitucionales, libertad de expresión e igualdad jurídica de la
+          mujer.
+        </p>
+      </div>
+
+      <div
+        class="grid p-0 m-0 h-full text-lg leading-7 text-justify text-black"
+        style="outline: 0px; column-gap: 20px; grid-template-columns: 71.6666px auto;"
+      >
+        <div
+          class="block my-4 mx-auto h-6 text-2xl font-bold leading-7 text-center bg-neutral-400 text-sky-700"
+          style='content: ""; grid-area: 1 / 1 / -1 / 2;'
+        >
+          1921
+        </div>
+
+        <p class="mt-2 text-lg leading-7 text-justify text-black">
+          En enero de 1921 adopta el lema de "El Gran Diario de México". Su
+          dinamismo lo impulsa a ser el primer periódico en lanzar una edición
+          vespertina: EL UNIVERSAL Gráfico, el cual apareció el 1 de febrero de
+          1922. En esa década de los 20, la redacción y los talleres se mudan a
+          las calles de Bucareli e Iturbide, respectivamente.
+        </p>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
