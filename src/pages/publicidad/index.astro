@@ -14,30 +14,25 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
   <body>
     <Header />
     <main>
-      <div
-        class="p-0 w-auto"
-        style="outline: 0px; grid-column: span 12 / auto; color: #222b59;"
-      >
+      <div class="p-0 w-auto publicidad" style="outline: 0px;">
         <div
-          class="p-0 mx-auto mt-0 mb-6 w-full lg:w-[800px] font-sans bg-no-repeat text-sky-800"
+          class="p-0 mx-auto mt-0 mb-6 w-full lg:w-[800px] font-sans bg-no-repeat text-center publicidad-content"
           style='outline: 0px; background-image: url("https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/publicidad/fondo1.jpg"); background-size: 100% 100%;'
         >
           <h2
-            class="px-0 pt-2 pb-0 m-0 text-4xl font-bold text-center text-slate-800"
-            style="outline: 0px; line-height: 44px; color: #222b59;"
+            class="px-0 pt-2 pb-0 m-0 mb-4 text-4xl font-bold"
+            style="outline: 0px; line-height: 44px;"
           >
             El Universal.mx
           </h2>
-          <p
-            class="py-0 px-12 m-3 text-lg leading-6 text-center text-slate-800"
-          >
+          <p class="py-0 px-12 mb-5 text-lg leading-6">
             Te invitamos a utilizar nuestras plataformas interactivas para
             ciertos tamaños, formatos y precios de publicidad impresa y digital
           </p>
-          <div class="flex flex-row lg:flex-col">
-            <div class="p-0 m-0" style="outline: 0px;">
+          <div class="publicidad-grid">
+            <div class="pb-2 mb-0" style="outline: 0px;">
               <a
-                class="w-64 tracking-tight leading-5 text-sky-800 hover:cursor-pointer hover:text-sky-800"
+                class="w-64 tracking-tight leading-5 text-sky-800 hover:cursor-pointer"
                 href="https://www.eluniversal.com.mx/sites/default/files/tarifarios2022/Tarifario_EU_2022.pdf"
                 style="grid-area: 1 / izquierda / auto / izquierda; text-decoration: none;"
                 target="_blank"
@@ -55,7 +50,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
                 target="_blank"
                 title="Media Kit El Universal"
                 href="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/publicidad/Media_Kit_El_Universal_2022_Sitio.pdf"
-                class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer hover:text-sky-800"
+                class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer"
                 style="outline: 0px; text-decoration: none;"
               >
                 <img
@@ -69,7 +64,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
                 href="https://publicidad.eluniversal.com.mx/Publicidad/Formatos_2022/Home/Home_EU_2022.html"
                 title="Formatos Digitales El Univerlsa"
                 target="_blank"
-                class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer hover:text-sky-800"
+                class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer"
                 style="outline: 0px; text-decoration: none;"
               >
                 <img
@@ -85,7 +80,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
                 href="https://publicidad.eluniversal.com.mx/Publicidad/Cotizador/2022/Cotizador.html"
                 target="_blank"
                 title="Cotizador El Universal"
-                class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer hover:text-sky-800"
+                class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer"
                 style="outline: 0px; text-decoration: none;"
               >
                 <img
@@ -97,24 +92,24 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
               </a>
             </div>
           </div>
-          <div class="py-12">
+          <div class="pb-3">
             <p
               class="py-0 px-12 m-0 text-xl font-bold leading-6 text-center text-slate-800"
               style="outline: 0px;"
             >
               <b
-                class="p-0 m-0 text-xl font-bold leading-6 text-center text-sky-300"
-                style="outline: 0px;">VENTAS:</b
+                class="p-0 m-0 text-xl font-bold leading-6 text-center"
+                style="outline: 0px; color: #86cee2;">VENTAS:</b
               >
               55 5709 1313
             </p>
             <p
-              class="py-0 px-12 m-0 text-base font-normal leading-6 text-center text-slate-800"
-              style="outline: 0px;"
+              class="py-0 px-12 m-0 text-base font-normal leading-6 text-center"
+              style="outline: 0px; color: #222b59;"
             >
               Juan Manuel Ramírez: Ext. 1520 | <a
                 href="mailto:juan.ramirezr@eluniversalclabsa.mx"
-                class="p-0 m-0 leading-6 text-center text-sky-800 hover:cursor-pointer hover:text-sky-800"
+                class="p-0 m-0 leading-6 text-center text-sky-800 hover:cursor-pointer"
                 style="outline: 0px; text-decoration: none;"
                 >juan.ramirezr@eluniversalclabsa.mx</a
               >
@@ -123,7 +118,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         </div>
 
         <div
-          class="p-0 my-0 mx-auto w-full lg:w-[800px] font-sans bg-no-repeat text-sky-800"
+          class="p-0 my-0 mx-auto w-full lg:w-[800px] font-sans bg-no-repeat publicidad-content"
           style='outline: 0px; background-image: url("https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/publicidad/fondo2.jpg"); background-size: 100% 100%;'
         >
           <h2
@@ -133,21 +128,18 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             Nuestras Verticales
           </h2>
           <p
-            class="py-0 px-12 m-3 text-lg leading-6 text-center text-slate-800"
+            class="py-0 px-12 mb-6 text-lg leading-6 text-center text-slate-800"
           >
             Conoce nuestros tamaños, formatos y precios de publicidad impresa y
             digital
           </p>
 
-          <div
-            class="grid gap-2 p-0 m-0 text-sky-800"
-            style="grid-template-columns: 1fr 1fr 1fr 1fr; outline: 0px;"
-          >
+          <div class="grid publicidad-items gap-2 p-0 m-0 text-sky-800">
             <a
               href="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/publicidad/Tarifario_Vive_USA_2022.pdf"
               target="_blank"
               title="Tarifario Viveusa"
-              class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer hover:text-sky-800"
+              class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer"
               style="outline: 0px; text-decoration: none;"
             >
               <img
@@ -161,7 +153,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
               href="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/publicidad/Tarifario_Clase_2022.pdf"
               target="_blank"
               title="Tarifario Clase"
-              class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer hover:text-sky-800"
+              class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer"
               style="outline: 0px; text-decoration: none;"
             >
               <img
@@ -175,7 +167,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
               href="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/publicidad/Tarifario_De_10_2022.pdf"
               target="_blank"
               title="Tarifario De10"
-              class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer hover:text-sky-800"
+              class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer"
               style="outline: 0px; text-decoration: none;"
             >
               <img
@@ -189,7 +181,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
               href="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/publicidad/Tarifario_El_Grafico_2022.pdf"
               target="_blank"
               title="Tarifario GU"
-              class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer hover:text-sky-800"
+              class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer"
               style="outline: 0px; text-decoration: none;"
             >
               <img
@@ -200,10 +192,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
               />
             </a>
           </div>
-          <div
-            class="grid gap-2 p-0 m-0 text-sky-800 py-3"
-            style="grid-template-columns: 190px 3fr; outline: 0px;"
-          >
+          <div class="grid gap-2 pb-3 m-0 py-3 publicidad-info">
             <div class="">
               <p
                 class="py-0 px-2 m-0 text-xs font-bold leading-4 text-center text-slate-800"
@@ -218,7 +207,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
               >
                 VENTAS MÉXICO CDMX 55 5709 1313 <a
                   href="mailto:saleseluniversal@eluniversalsanantonio.com"
-                  class="p-0 m-0 text-xs leading-4 text-center text-sky-800 hover:cursor-pointer hover:text-sky-800"
+                  class="p-0 m-0 text-xs leading-4 text-center text-sky-800 hover:cursor-pointer"
                   style="outline: 0px; text-decoration: none;"
                   >saleseluniversal@eluniversalsanantonio.com</a
                 >
@@ -236,7 +225,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
                 Juan Manuel Ramírez: Ext. 1520 <br />
                 <a
                   href="mailto:juan.ramirezr@eluniversalclabsa.mx"
-                  class="p-0 m-0 leading-6 text-center text-sky-800 hover:cursor-pointer hover:text-sky-800"
+                  class="p-0 m-0 leading-6 text-center text-sky-800 hover:cursor-pointer"
                   style="outline: 0px; text-decoration: none;"
                   >juan.ramirezr@eluniversalclabsa.mx</a
                 >
@@ -246,6 +235,55 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         </div>
       </div>
     </main>
+    <style>
+      .publicidad {
+        color: #222b59;
+      }
+
+      .publicidad-content {
+        width: 100%;
+      }
+
+      .publicidad-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .publicidad-grid__item {
+        padding: 36px 0 24px;
+        background-color: #005383;
+        border-radius: 8px;
+      }
+
+      .publicidad-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .publicidad-info {
+        display: grid;
+        outline: 0;
+        grid-template-columns: 1fr;
+      }
+
+      @media screen and (min-width: 480px) {
+        .publicidad-content {
+          /* width: 800px; */
+        }
+        .publicidad-grid {
+          grid-template-columns: 1fr 1fr 1fr;
+          max-width: 66rem;
+        }
+
+        .publicidad-items {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .publicidad-info {
+          grid-template-columns: 190px 3fr;
+        }
+      }
+    </style>
     <Footer />
   </body>
 </html>
