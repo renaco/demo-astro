@@ -1,0 +1,75 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header />
+
+    <div
+      class="flex items-center relative py-5 mx-auto mt-32 mb-2 w-full max-w-none font-sans rounded-md error-content"
+    >
+      <div class="m-0 lg:m-auto error">
+        <h3
+          class="ml-6 h-auto font-sans font-bold tracking-tight text-gray-100 error-title"
+        >
+          Error 404
+        </h3>
+        <p
+          class="p-0 m-0 max-w-none font-sans text-2xl leading-8 text-white error-summary"
+          style="outline: 0px;"
+        >
+          Lo sentimos, no hemos encontrado la página, <a
+            href="/"
+            class="p-0 m-0 font-sans text-2xl leading-8 hover:cursor-pointer error-link"
+            >haz clic aquí</a
+          >
+          para regresar al inicio, o bien te podría interesar el siguiente contenido.
+        </p>
+      </div>
+    </div>
+    <style>
+      .error-content {
+        background-color: #2a3378;
+        border-radius: 6px;
+        max-width: calc(100% - 20px);
+      }
+      .error {
+        max-width: calc(100% - 52px);
+        min-height: auto;
+        margin: 0 26px;
+      }
+      .error-title {
+        color: #ffffff;
+        font-size: 48px;
+        line-height: 60px;
+      }
+      .error-link {
+          outline: 0px;
+          text-decoration: none;
+          color: #ee212d;
+        }
+      @media screen and (min-width: 1100px) {
+        .error {
+          margin-top: 140px;
+          margin-bottom: 120px;
+          width: 734px;
+          margin-left: 11.7em;
+        }
+        .error-title {
+          font-size: 150px;
+          line-height: 175px;
+        }
+      }
+    </style>
+    <Footer />
+  </body>
+</html>
