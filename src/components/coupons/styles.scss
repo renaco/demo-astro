@@ -1,0 +1,54 @@
+.coupons {
+  &__container {
+    grid-template-columns: 1fr;
+  }
+
+  &__title {
+    grid-column: 1 / 6;
+    outline: 0;
+    text-indent: 15px;
+  }
+
+  &__image {
+    display: inline;
+    grid-area: 1 / izq / 3 / izq;
+  }
+
+  &__item {
+    grid-column: col; // / col;
+    grid-template-columns: [izq] 30% [der] 70%;
+  }
+
+  &__button {
+    grid-column: der;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .coupons {
+    &__container {
+      grid-template-columns: repeat(5,[col] 1fr);
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .coupons {
+    &__container {
+      grid-template-columns: repeat(5, [col] 1fr);
+    }
+
+    &__image {
+      display: inline;
+      grid-area: 1 / izq / 3 / izq;
+    }
+
+    &__item {
+      grid-column: col / col;
+      grid-template-columns: [izq] 30% [der] 70%;
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+
+}
