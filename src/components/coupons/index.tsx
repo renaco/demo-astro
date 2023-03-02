@@ -73,7 +73,7 @@ const Coupons = () => {
               </h3>
             </div>
             <div
-              className="p-2 my-2 mx-auto w-2/3 font-sans text-sm font-semibold text-center rounded-lg border border-black border-dashed text-sky-700 hover:cursor-pointer hover:bg-sky-700 hover:text-white leading-3 no-underline coupons__button"
+              className="px-2 py-1 my-2 mx-auto w-2/3 font-sans text-sm font-semibold text-center rounded-lg border border-black border-dashed text-sky-700 hover:cursor-pointer hover:bg-sky-700 hover:text-white leading-3 no-underline coupons__button"
               // style={{ gridColumn: "der / der", textDecoration: "none" }}
             >
               <a
