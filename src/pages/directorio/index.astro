@@ -202,7 +202,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         <div
           class="px-2 flex flex-col p-0 my-5 mx-auto max-w-full font-sans text-blue"
         >
-          <!-- style="outline: 0px; grid-column-end: span 3;" -->
           <div class="block p-0 m-0 text-blue directory-section">
             <span
               class="block relative p-0 mt-px mr-2 mb-0 ml-0 w-full h-[6px] border-t-8 directory-label"
@@ -546,6 +545,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         display: block;
       }
 
+      .directory-article p {
+        text-align: left;
+      }
+
       .directory-title {
         line-height: 39px;
         font-size: 26px;
@@ -588,6 +591,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
       }
 
       @media screen and (min-width: 1100px) {
+        .directory-article p {
+          text-align: justify;
+        }
         .directory-title {
           line-height: 44px;
           font-size: 40px;
