@@ -15,11 +15,11 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
     <Header />
     <main>
       <div
-        class="p-0 m-0 w-auto text-sky-800"
+        class="p-0 m-0 w-auto"
         style="outline: 0px; grid-column: span 12 / auto;"
       >
         <article
-          class="p-0 mx-0 mt-0 mb-2 font-sans text-lg leading-7 text-justify text-black break-all code-of-ethics"
+          class="py-0 px-2 mx-0 mt-0 mb-2 font-sans text-lg leading-7 text-justify text-black break-all code-of-ethics"
         >
           <h2
             class="p-0 m-0 text-2xl font-bold leading-7 text-justify text-black"
@@ -444,9 +444,21 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
     </main>
 
     <style>
+      .code-of-ethics {
+        text-align: left;
+        word-break: break-all;
+      }
       .code-of-ethics h2 {
         font-size: 27px;
         outline: 0;
+      }
+
+      @media screen and (min-width: 576px) {
+        .code-of-ethics {
+          line-height: 28px;
+          text-align: justify;
+          word-break: normal;
+        }
       }
     </style>
     <Footer />

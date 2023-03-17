@@ -14,7 +14,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
   <body>
     <Header />
     <main>
-      <div class="p-0 w-auto publicidad" style="outline: 0px;">
+      <div class="pt-0 pb-1 mb-1 w-auto publicidad" style="outline: 0px;">
         <div
           class="p-0 mx-auto mt-0 mb-6 w-full lg:w-[800px] font-sans bg-no-repeat text-center publicidad-content"
           style='outline: 0px; background-image: url("https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/publicidad/fondo1.jpg"); background-size: 100% 100%;'
@@ -64,7 +64,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
                 href="https://publicidad.eluniversal.com.mx/Publicidad/Formatos_2022/Home/Home_EU_2022.html"
                 title="Formatos Digitales El Univerlsa"
                 target="_blank"
-                class="p-0 m-0 cursor-pointer text-sky-800 hover:cursor-pointer"
+                class="pt-0 pb-2 mt-0 block mb-5 cursor-pointer text-sky-800 hover:cursor-pointer"
                 style="outline: 0px; text-decoration: none;"
               >
                 <img
@@ -92,13 +92,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
               </a>
             </div>
           </div>
-          <div class="pb-3">
+          <div class="pb-5">
             <p
-              class="py-0 px-12 m-0 text-xl font-bold leading-6 text-center text-slate-800"
+              class="py-0 px-12 m-0 text-[18px] lg:text-xl font-bold leading-6 text-center text-slate-800"
               style="outline: 0px;"
             >
               <b
-                class="p-0 m-0 text-xl font-bold leading-6 text-center"
+                class="p-0 m-0 font-bold leading-6 text-center"
                 style="outline: 0px; color: #86cee2;">VENTAS:</b
               >
               55 5709 1313
@@ -128,7 +128,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             Nuestras Verticales
           </h2>
           <p
-            class="py-0 px-12 mb-6 text-lg leading-6 text-center text-slate-800"
+            class="pt-0 pb-2 px-12 mb-6 text-lg leading-6 text-center text-slate-800"
           >
             Conoce nuestros tamaños, formatos y precios de publicidad impresa y
             digital
@@ -193,7 +193,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             </a>
           </div>
           <div class="grid gap-2 pb-3 m-0 py-3 publicidad-info">
-            <div class="">
+            <div class="px-2 relative publicidad-grid__info">
               <p
                 class="py-0 px-2 m-0 text-xs font-bold leading-4 text-center text-slate-800"
                 style="outline: 0px;"
@@ -205,12 +205,15 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
                 class="py-0 px-2 m-0 text-xs font-normal leading-4 text-center text-slate-800"
                 style="outline: 0px;"
               >
-                VENTAS MÉXICO CDMX 55 5709 1313 <a
-                  href="mailto:saleseluniversal@eluniversalsanantonio.com"
-                  class="p-0 m-0 text-xs leading-4 text-center text-sky-800 hover:cursor-pointer"
-                  style="outline: 0px; text-decoration: none;"
-                  >saleseluniversal@eluniversalsanantonio.com</a
-                >
+                VENTAS MÉXICO CDMX 55 5709 1313
+                <span class="mt-1 block w-[240px]">
+                  <a
+                    href="mailto:saleseluniversal@eluniversalsanantonio.com"
+                    class="p-0 m-0 text-xs leading-[18px] text-center text-sky-800 hover:cursor-pointer"
+                    style="outline: 0px; text-decoration: none;"
+                    >saleseluniversal@eluniversalsanantonio.com</a
+                  >
+                </span>
               </p>
             </div>
             <div class="">
@@ -269,6 +272,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         display: grid;
         outline: 0;
         grid-template-columns: 1fr;
+      }
+
+      .publicidad-grid__info {
+        grid-template-rows: repeat(4, 1fr);
       }
 
       @media screen and (min-width: 480px) {
