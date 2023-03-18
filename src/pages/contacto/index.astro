@@ -19,16 +19,14 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         style="outline: 0px; grid-column: span 12 / auto;"
       >
         <p
-          class="col-span-full p-0 m-0 text-2xl tracking-tight leading-8 text-black"
-          style="outline: 0px;"
+          class="col-span-full p-0 m-0 text-2xl tracking-tight leading-8 text-black contacto-summary"
         >
           Queremos saber qué opinas sobre los temas que te interesan. <br /> Desde
           aquí puedes enviarnos comentarios, denuncias, sugerencias, imágenes, videos
           o ilustraciones que desees compartir con nosotros.
         </p>
         <p
-          class="col-span-full p-0 mx-0 mt-0 mb-3 text-2xl font-semibold tracking-tight leading-9 text-sky-800"
-          style="outline: 0px;"
+          class="col-span-full p-0 mx-0 mt-0 mb-3 text-2xl font-semibold tracking-tight leading-9 text-sky-800 contacto-summary is-thankfully"
         >
           Tu participación es esencial para nosotros. <br /> Gracias por tu preferencia.
         </p>
@@ -36,7 +34,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
           class="grid gap-3 lg:gap-5 justify-center my-2 mx-auto text-sky-800 contacto-grid"
         >
           <div
-            class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800 contacto-grid__item"
+            class="px-0 m-0 max-w-full text-center text-sky-800 contacto-grid__item"
             style="outline: 0px;"
           >
             <p
@@ -65,7 +63,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
           </div>
 
           <div
-            class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800 contacto-grid__item"
+            class="px-0 m-0 max-w-full text-center text-sky-800 contacto-grid__item"
             style="outline: 0px;"
           >
             <p
@@ -93,7 +91,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             </p>
           </div>
           <div
-            class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800 contacto-grid__item"
+            class="px-0 m-0 max-w-full text-center text-sky-800 contacto-grid__item"
             style="outline: 0px;"
           >
             <p
@@ -121,7 +119,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             </p>
           </div>
           <div
-            class="px-0 pt-8 pb-6 m-0 max-w-full text-center rounded-lg bg-sky-800 text-sky-800 contacto-grid__item"
+            class="px-0 m-0 max-w-full text-center text-sky-800 contacto-grid__item"
             style="outline: 0px;"
           >
             <p
@@ -169,12 +167,23 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
     <style>
       .contacto-grid {
         grid-template-columns: 1fr;
+        margin: 10px auto;
+      }
+
+      .contacto-summary {
+        outline: 0;
+        line-height: 30px;
+        margin-bottom: 10px;
+      }
+
+      .is-thankfully {
+        margin-bottom: 15px;
       }
 
       .contacto-grid__item {
-        padding: 15px 0 17px;
         background-color: #005383;
         border-radius: 8px;
+        padding: 25px 0 24px;
       }
 
       .contacto-grid__link {
@@ -194,6 +203,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
           grid-template-columns: repeat(2, 1fr);
           max-width: 100%;
           margin-bottom: 20px;
+        }
+
+        .contacto-summary {
+          line-height: 36px;
         }
       }
     </style>
