@@ -146,7 +146,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
           través del correo electrónico
           <a
             href="mailto:contacto@eluniversal.com.mx"
-            class="p-0 m-0 text-lg leading-7 text-justify text-sky-800 hover:cursor-pointer hover:text-sky-800"
+            class="p-0 m-0 text-lg leading-7 text-justify text-blue hover:cursor-pointer"
             style="outline: 0px; text-decoration: none;"
             >contacto@eluniversal.com.mx</a
           >
@@ -155,7 +155,18 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
     </main>
     <style>
       .util-paragraph {
-        text-align: justify;
+        word-break: break-all;
+        text-align: left;
+      }
+      .text-blue {
+        color: #005383;
+      }
+
+      @media screen and (min-width: 576px) {
+        .util-paragraph {
+          word-break: normal;
+          text-align: justify;
+        }
       }
     </style>
     <Footer />
