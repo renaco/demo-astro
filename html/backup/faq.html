@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <main>
+    <div class="faq-grid">
+      <div class="auto-cols-auto tab-items items">
+        <button
+          class="faq-button block py-4 px-5 m-0 w-full font-sans text-base text-left text-black bg-white border-b-0 border-t border-solid cursor-pointer border-x-0 border-zinc-300 hover:bg-zinc-300 is-active"
+          onclick="openCity(event, 'Acc1')" id="defaultOpen">
+          Preguntas frecuentes
+        </button>
+        <button
+          class="faq-button block py-4 px-5 m-0 w-full font-sans text-base text-left text-black bg-white border-b-0 border-t border-solid cursor-pointer border-x-0 border-zinc-300 hover:bg-zinc-300"
+          onclick="openCity(event, 'Acc2')">
+          Suscripción
+        </button>
+        <button
+          class="faq-button block py-4 px-5 m-0 w-full font-sans text-base text-left text-black bg-white border-b-0 border-t border-solid cursor-pointer border-x-0 border-zinc-300 hover:bg-zinc-300"
+          onclick="openCity(event, 'Acc3')"
+          style="outline: none; border-width: 1px 0px 0px; transition: all 0.3s ease 0s; text-indent: 5px;">
+          Cuenta
+        </button>
+        <button
+          class="faq-button block py-4 px-5 m-0 w-full font-sans text-base text-left text-black bg-white border-b-0 border-t border-solid cursor-pointer border-x-0 border-zinc-300 hover:bg-zinc-300"
+          onclick="openCity(event, 'Acc4')">
+          Ayuda
+        </button>
+        <button
+          class="faq-button block py-4 px-5 m-0 w-full font-sans text-base text-left text-black bg-white border-b-0 border-t border-solid cursor-pointer border-x-0 border-zinc-300 hover:bg-zinc-300"
+          onclick="openCity(event, 'Acc5')">
+          Edición impresa
+        </button>
+        <button
+          class="faq-button block py-4 px-5 m-0 w-full font-sans text-base text-left text-black bg-white border-b-0 border-t border-solid cursor-pointer border-x-0 border-zinc-300 hover:bg-zinc-300"
+          onclick="openCity(event, 'Acc6')">
+          Pagos
+        </button>
+        <button
+          class="faq-button block py-4 px-5 m-0 w-full font-sans text-base text-left text-black bg-white border-solid cursor-pointer border-x-0 border-y border-zinc-300 hover:bg-zinc-300"
+          onclick="openCity(event, 'Acc7')">
+          Guía Rápida
+        </button>
+      </div>
+
+      <!-- Preguntas frecuentes -->
+      <div id="Acc1" class="p-0 h-auto text-black tab-content">
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            Qué es EL UNIVERSAL +
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Es un nuevo servicio de información que EL UNIVERSAL tiene para
+            ti, con contenidos especiales, de mayor valor periodístico,
+            información exclusiva, newsletter especiales y muchos beneficios
+            para nuestros suscriptores.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Cuáles son los contenidos premium?
+          </summary>
+          <p class="flex px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Son aquellos que están marcados con el símbolo amarillo
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="ml-1" fill="none">
+              <g clip-path="url(#a)">
+                <path fill="#fff" d="M11.706 3.337H3.311v7.822h8.395V3.337Z"></path>
+                <path fill="#F7B318"
+                  d="M6.987 0a6.987 6.987 0 0 0 0 13.974h2.32L3.572 8.238V5.736h2.164v-2.19h2.502l5.736 5.735v-2.32C14 3.128 10.871 0 6.987 0Z">
+                </path>
+                <path fill="#E5A324"
+                  d="M8.265 5.736h2.163v2.502h-2.19v2.19H5.736v-2.19h-2.19l5.735 5.736h4.693V9.281L8.238 3.546v2.19h.027Z">
+                </path>
+                <path fill="#fff" d="M11.612 8.615v-3.18H2.41v3.18h9.203Z"></path>
+                <path fill="#fff" d="M5.396 11.624h3.18V2.42h-3.18v9.203Z"></path>
+              </g>
+              <defs>
+                <clipPath id="a">
+                  <path fill="#fff" d="M0 0h14v14H0z"></path>
+                </clipPath>
+              </defs>
+            </svg>
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Dónde me puedo suscribir a los newsletter?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Para poder suscribirte a un newsletter es necesario ingresar a tu
+            cuenta, dar clic en la pestaña “newsletter” y ahí aparecerán todos
+            los newsletter a los que te puedes suscribir, sólo basta con que
+            actives el botón que dice “recibir este newsletter” y de esta
+            manera estarán llegando a la cuenta de correo que tengas
+            registrada con nosotros.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <br /><br /><br /><br /><br />
+        <div class="grid faq-grid__videos">
+          <div class="item w-full">
+            <h3 class="p-0 m-0 text-lg font-bold text-black" style="outline: 0px;">
+              Acceder a mi cuenta de El Universal
+            </h3>
+            <iframe width="100%" height="250" src="https://www.youtube.com/embed/IQDqMXaMdts"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <div class="item w-full">
+            <h3 class="p-0 m-0 text-lg font-bold text-black" style="outline: 0px;">
+              Versión impresa Digital
+            </h3>
+            <iframe width="100%" height="250" src="https://www.youtube.com/embed/J9GzQb1jeZQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <div class="item w-full">
+            <h3 class="p-0 m-0 text-lg font-bold text-black" style="outline: 0px;">
+              Registro a los Newsletters
+            </h3>
+            <iframe width="100%" height="250" src="https://www.youtube.com/embed/aonsACvIhVg"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <div class="item w-full">
+            <h3 class="p-0 m-0 text-lg font-bold text-black" style="outline: 0px;">
+              Acceso a favoritos
+            </h3>
+            <iframe width="100%" height="250" src="https://www.youtube.com/embed/4nS-y9Izlgw"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Suscripcion -->
+      <div id="Acc2" class="p-0 h-auto text-black tab-content">
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Qué incluye mi suscripción?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Acceso exclusivo a los contenidos Premium de EL UNIVERSAL,
+            suscripción a newsletters únicos, reducción de publicidad en los
+            contenidos premium, contenidos de investigación más completos,
+            podcast, infografías, acceso a la edición impresa en su formato
+            digital y mucha más información.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            Tipos de suscripciones y precios
+          </summary>
+          <ul class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Mensual Digital $99
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Trimestral Digital $270
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Anual Digital $990
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Impreso Físico + Anual Digital $3,200
+            </li>
+          </ul>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Cómo me suscribo?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Para poder suscribirte únicamente debes escoger alguno de nuestros
+            paquetes desde nuestro cotizador o desde alguna de las ofertas que
+            aparezcan mientras navegas en los contenidos premium. Al entrar al
+            cotizador podrás seleccionar una de las tres opciones que tenemos
+            de suscripción digital, tendrás que contar con un registro previo
+            para poder acceder, aceptar los términos y condiciones del
+            servicio y llenar los datos de pago. Una vez realizadas estas
+            acciones te llegará un mail de confirmación de compra con la
+            información de tu transacción. Listo, podrás ingresar a todos los
+            contenidos plus que EL UNIVERSAL tiene para ti. También puedes
+            comunicarte al 55-5237-0800 para recibir ayuda de uno de nuestros
+            ejecutivos.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            Cancelación de suscripción
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Para poder cancelar la suscripción debes realizar los siguientes
+            pasos:
+          </p>
+          <ul class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Ingresar a tu cuenta
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Dar clic en el botón que dice administrar, se encuentra en el
+              panel principal en la parte inferior derecha
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Seleccionar la opción que dice cancelar recobro
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Confirmar la cancelación
+            </li>
+          </ul>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Recibirás un correo con la confirmación de tu cancelación y tu
+            próxima fecha de vencimiento. También puedes comunicarte al
+            55-5237-0800 para recibir ayuda de uno de nuestros ejecutivos.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            Renovación de suscripción
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            La renovación de la suscripción digital es automática, si deseas
+            cancelar la renovación lo puedes hacer desde “mi cuenta”, se
+            respetará el tiempo de vencimiento de tu suscripción y en el
+            momento que desees volver, solo habrá que reactivarla antes del
+            vencimiento para continuar disfrutando de contenido exclusivo.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+      </div>
+
+      <!-- Cuenta -->
+      <div id="Acc3" class="p-0 h-auto text-black tab-content">
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Cómo puedo restablecer mi contraseña?
+          </summary>
+          <ul class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Para restablecer tu contraseña da clic en “Iniciar Sesión” en la
+              parte superior del lado derecho de la página principal
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Encontrarás la opción de “olvidé mi contraseña”, al dar clic te
+              solicitará tu correo electrónico registrado
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Debes dar clic en restaurar
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Recibirás un correo electrónico con un enlace para poder
+              restablecer tu contraseña
+            </li>
+          </ul>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            También puedes comunicarte al 55-5237-0800 para recibir ayuda de
+            uno de nuestros ejecutivos.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            Para qué sirve la información de “Mi Perfil”
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Si completas la información de “mi perfil” nos ayudas para poder
+            ofrecerte contenidos más afines a tus gustos y a recibir
+            promociones especiales.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+      </div>
+
+      <!-- Ayuda -->
+      <div id="Acc4" class="p-0 h-auto text-black tab-content">
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Cómo solicito ayuda en línea?
+          </summary>
+          <ul class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Ingresa a “mi cuenta”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Da clic en la pestaña “ayuda”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Selecciona “¡consiga ayuda!
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Debes dar clic en el botón verde “ayuda”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Redacta tu solicitud
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Dale clic a enviar
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Espera a que uno de nuestros ejecutivos te contacte mediante el
+              buzón de ayuda
+            </li>
+          </ul>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Puedo cambiar mi tipo de suscripción?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Puedes crecer tu suscripción a semestral o anual, para poder
+            hacerlo sigue estos pasos:
+          </p>
+          <ul class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Ingresa a tu cuenta
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              En la parte inferior del lado derecha dar clic al botón
+              “mejorar”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Elige una de las opciones según se adapte a tus necesidades
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Da clic en “enviar”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Revisa y confirma los datos y da clic en “enviar”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Se actualizará tu próximo periodo
+            </li>
+          </ul>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            También puedes comunicarte al 55-5237-0800 para recibir ayuda de
+            uno de nuestros ejecutivos.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Dónde puedo generar mi factura?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Para poder obtener la factura de tu compra solo debes hacer lo
+            siguiente:
+          </p>
+          <ul class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Ingresa a tu cuenta
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Ir a la pestaña de “transacciones”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Seleccionar la compra que deseas facturar y dar clic en la
+              palabra “facturar” serás re-dirigido a un kiosko para poder
+              ingresar tus datos de facturación
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Ten a la mano tu razón social, RFC, correo electrónico y uso del
+              CFDI
+            </li>
+
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Llena los campos solicitados y da clic al botón “facturar”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Estarás recibiendo los documentos PDF y XML en tu dirección de
+              correo proporcionada
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              También, puedes generar tu factura entrando en la siguiente
+              liga: <a href="https://crm.eluniversal.com.mx/Facturacion"
+                class="p-0 m-0 leading-5 text-left text-sky-800 hover:cursor-pointer"
+                style="outline: 0px; text-decoration: none; list-style: outside none square;">https://crm.eluniversal.com.mx/Facturacion</a>
+            </li>
+          </ul>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Recuerda que solo tienes hasta el último día del mes de tu compra
+            para poder generar tu factura. También puedes comunicarte al
+            55-5237-0800 para recibir ayuda de uno de nuestros ejecutivos.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Cómo solicito un reembolso?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            No se podrá realizar el rembolso de una compra de suscripción
+            digital. Podrás únicamente solicitar no renovar el servicio en
+            nuestro Contact Center, llamando al 55-5237-0800. Horarios: Lunes
+            a Viernes de 8:00 a 18:00 horas. Sábados de 9:00 a 15:00 horas.
+            *Los días feriados oficiales no se cuenta con servicio de Contact
+            Center.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+      </div>
+
+      <!-- Edicion impresa -->
+      <div id="Acc5" class="p-0 h-auto text-black tab-content">
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Qué es la Edición Impresa?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Un servicio incluido con la suscripción de EL UNIVERSAL Plus, en
+            el cual podrás consultar la Edición Impresa del día y de seis
+            anteriores desde tu dispositivo móvil, tableta o computadora.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Cómo puedo ingresar a la Edición Impresa?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Inicia sesión con correo y contraseña de tu cuenta de EL UNIVERSAL
+            Plus. Entra a “Mi cuenta” y puedes dar clic al botón que dice
+            “Edición Impresa” situado en el costado izquierdo del menú de
+            opciones.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            También puedes ingresar a la url <a href="https://edicionimpresa.eluniversal.com.mx" target="_blank"
+              title="Edición impresa" class="p-0 m-0 leading-5 text-sky-800 hover:cursor-pointer"
+              style="outline: 0px; text-decoration: none;">
+              edicionimpresa.eluniversal.com.mx</a>
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Otra opción es ingresar a “Portada” en el Home del portal y dar
+            clic al botón “Consulta la edición impresa completa” que está
+            debajo de la portada del día.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Qué costo tiene este servicio?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            El acceso a la Edición Impresa es un servicio que incluye EL
+            UNIVERSAL Plus, por lo que no tiene costo extra si ya estás
+            suscrito.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            ¿Puedo ver lo mismo que si compro el periódico en papel?
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Sí, la versión digital es un PDF de la edición del día que se
+            imprime.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+      </div>
+
+      <!-- Pagos -->
+      <div id="Acc6" class="p-0 h-auto text-black tab-content">
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            Agregar método de pago
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Para poder agregar un método de pago deberás realizar los
+            siguientes pasos:
+          </p>
+          <ul class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Ingresa a “mi cuenta”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Dar clic en el botón que dice administrar, se encuentra en el
+              panel principal en la parte inferior derecha
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Seleccionar la opción “actualizar el método de pago de
+              renovación”
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Se habilitará una ventana emergente donde aparece la opción
+              “+Agregar una tarjeta nueva” en la parte superior derecha, debes
+              dar clic ahí
+            </li>
+            <li class="px-1 pt-1 pb-px my-0 mr-0 ml-5 leading-5 text-left text-black"
+              style="outline: 0px; list-style: outside none square;">
+              Podrás ingresar los datos de tu nueva tarjeta bancaria y
+              seleccionar si deseas que sea tu método de pago principal
+            </li>
+          </ul>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            También puedes comunicarte al 55-5237-0800 para recibir ayuda de
+            uno de nuestros ejecutivos
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold text-black border border-solid border-zinc-300 bg-stone-50"
+            style="outline: 0px; list-style: none;">
+            Métodos de pago
+          </summary>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Contamos con la plataforma de multi pagos Open Pay que es 100%
+            segura y que procesa el pago mediante tarjetas de cualquier banco.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            Los pagos con débito o crédito se realizarán mediante la pasarela
+            de pagos "Stripe" en la cual se cobrará de $1 a $30 MXN como monto
+            validador que se verá reembolsado de 5 a 7 días hábiles.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            También puedes comunicarte al 55-5237-0800 para recibir ayuda de
+            uno de nuestros ejecutivos.
+          </p>
+          <p class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+          </p>
+        </details>
+      </div>
+
+      <!-- Edicion impresa -->
+      <div id="Acc7" class="p-0 h-auto text-black tab-content">
+        <details>
+          <summary
+            class="py-3 px-5 m-0 font-sans text-base font-bold rounded-b-none border border-yellow-400 border-dashed bg-sky-800"
+            style="outline: 0px; list-style: none;">
+            Guía Rápida
+          </summary>
+          <div class="px-6 pt-4 pb-4 m-0 text-base leading-5 text-black border-solid border-x border-zinc-300"
+            style="outline: 0px;">
+            <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
+              <img src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb1.png"
+                style="width: 100%; outline: 0px; filter: saturate(1.15);" onclick="openModal();currentSlide(1)"
+                class="p-0 m-0 w-full leading-5 text-black cursor-pointer" pinger-seen="true" />
+            </div>
+            <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
+            </div>
+            <img src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb2.png"
+              style="width: 100%; outline: 0px; filter: saturate(1.15);" onclick="openModal();currentSlide(2)"
+              class="p-0 m-0 w-full leading-5 text-black cursor-pointer" pinger-seen="true" />
+          </div>
+          <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
+            <img src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb3.png"
+              style="width: 100%; outline: 0px; filter: saturate(1.15);" onclick="openModal();currentSlide(3)"
+              class="p-0 m-0 w-full leading-5 text-black cursor-pointer" pinger-seen="true" />
+          </div>
+          <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
+            <img src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb4.png"
+              style="width: 100%; outline: 0px; filter: saturate(1.15);" onclick="openModal();currentSlide(4)"
+              class="p-0 m-0 w-full leading-5 text-black cursor-pointer" pinger-seen="true" />
+          </div>
+          <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
+            <img src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb5.png"
+              style="width: 100%; outline: 0px; filter: saturate(1.15);" onclick="openModal();currentSlide(5)"
+              class="p-0 m-0 w-full leading-5 text-black cursor-pointer" pinger-seen="true" />
+          </div>
+          <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
+            <img src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb6.png"
+              style="width: 100%; outline: 0px; filter: saturate(1.15);" onclick="openModal();currentSlide(6)"
+              class="p-0 m-0 w-full leading-5 text-black cursor-pointer" pinger-seen="true" />
+          </div>
+          <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
+            <img src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb7.png"
+              style="width: 100%; outline: 0px; filter: saturate(1.15);" onclick="openModal();currentSlide(7)"
+              class="p-0 m-0 w-full leading-5 text-black cursor-pointer" pinger-seen="true" />
+          </div>
+
+          <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
+            <span
+              class="absolute text-5xl font-bold text-white hover:cursor-pointer focus:cursor-pointer focus:text-zinc-400"
+              onclick="closeModal()"
+              style="right: 60px; top: 60px; outline: 0px; text-shadow: rgb(0, 83, 131) 1px 3px; transition: all 0.75s ease-out 0s; z-index: 99;">×</span>
+          </div>
+        </details>
+      </div>
+    </div>
+  </main>
+  <style>
+    .faq-grid {
+      font-family: work sans, sans-serif;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px 25px;
+      margin: 20px 0;
+      padding: 10px 25px;
+      width: 100%;
+    }
+
+    .faq-grid details[open]>summary {
+      background-color: #005383;
+      border-bottom: 1px dashed #ffd202;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      color: #fff;
+    }
+
+    .faq-grid details>summary::before {
+      content: "";
+      display: inline-block;
+      float: right;
+      height: 8px;
+      border: solid 2px #006cad;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+      margin-right: 0.6rem;
+      transition: transform 0.2s;
+      transform: rotate(-45deg) translate(-20%, 20%);
+      width: 8px;
+    }
+
+    .faq-grid details[open]>summary::before {
+      border: solid 2px #ffb202;
+      border-left: transparent;
+      border-bottom: transparent;
+      transform: rotate(135deg) translate(-20%, 20%);
+    }
+
+    .faq-grid details[open]> :not(summary) {
+      border-left: solid 1px #ddd;
+      border-right: solid 1px #ddd;
+      font-size: 16px;
+      line-height: 22px;
+      padding: 15px 25px 0;
+    }
+
+    .faq-grid details[open]> :last-child {
+      border-bottom: solid 1px #ddd;
+    }
+
+    .faq-button {
+      outline: none;
+      border-width: 1px 0px 0px;
+      transition: all 0.3s ease 0s;
+    }
+
+    .faq-grid__videos {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px;
+    }
+
+    .faq-grid__item {}
+
+    .faq-grid__item iframe {
+      height: 250px;
+      width: 100%;
+    }
+
+    .is-active {
+      background-color: #005383;
+      border-left: 4px solid #ffb200;
+      color: #fff;
+      font-weight: 500;
+      text-indent: 5px;
+    }
+
+    .tab-items {
+      background-color: #fff;
+      box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+      font-family: work sans, sans-serif;
+      height: fit-content;
+    }
+
+    @media screen and (min-width: 576px) {
+      .faq-grid {
+        grid-template-columns: 300px 3fr;
+        grid-gap: 10px 25px;
+      }
+    }
+  </style>
+  <script is:inline>
+    const listItems = Array.from(document.querySelectorAll(".faq-button"));
+    const listContents = Array.from(
+      document.querySelectorAll(".tab-content")
+    );
+
+    let itemChoosed;
+
+    function hideAllItems() {
+      listContents.forEach((item, key) => {
+        item.classList.add("hidden");
+      });
+    }
+
+    function showTab(item) {
+      hideAllItems();
+
+      document.getElementById(`Acc${item}`).classList.remove("hidden");
+    }
+
+    hideAllItems();
+    listItems.forEach((item, key) => {
+      item.addEventListener("click", () => {
+        item.classList.toggle("is-active");
+
+        itemChoosed = key + 1;
+        showTab(itemChoosed);
+        listItems.forEach((ele, k) => {
+          if (key !== k) {
+            ele.classList.remove("is-active");
+          }
+        });
+      });
+    });
+
+    document.getElementById(`Acc1`).classList.remove("hidden");
+  </script>
+</body>
+
+</html>
