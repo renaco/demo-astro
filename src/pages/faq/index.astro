@@ -949,7 +949,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             >
               <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
                 <img
-                  src="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/infografiatutoweb1.png"
+                  src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb1.png"
                   style="width: 100%; outline: 0px; filter: saturate(1.15);"
                   onclick="openModal();currentSlide(1)"
                   class="p-0 m-0 w-full leading-5 text-black cursor-pointer"
@@ -959,7 +959,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
               <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
               </div>
               <img
-                src="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/infografiatutoweb2.png"
+                src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb2.png"
                 style="width: 100%; outline: 0px; filter: saturate(1.15);"
                 onclick="openModal();currentSlide(2)"
                 class="p-0 m-0 w-full leading-5 text-black cursor-pointer"
@@ -968,7 +968,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             </div>
             <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
               <img
-                src="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/infografiatutoweb3.png"
+                src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb3.png"
                 style="width: 100%; outline: 0px; filter: saturate(1.15);"
                 onclick="openModal();currentSlide(3)"
                 class="p-0 m-0 w-full leading-5 text-black cursor-pointer"
@@ -977,7 +977,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             </div>
             <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
               <img
-                src="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/images/infografiatutoweb4.png"
+                src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb4.png"
                 style="width: 100%; outline: 0px; filter: saturate(1.15);"
                 onclick="openModal();currentSlide(4)"
                 class="p-0 m-0 w-full leading-5 text-black cursor-pointer"
@@ -986,7 +986,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             </div>
             <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
               <img
-                src="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/infografiatutoweb5.png"
+                src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb5.png"
                 style="width: 100%; outline: 0px; filter: saturate(1.15);"
                 onclick="openModal();currentSlide(5)"
                 class="p-0 m-0 w-full leading-5 text-black cursor-pointer"
@@ -995,7 +995,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             </div>
             <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
               <img
-                src="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/infografiatutoweb6.png"
+                src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb6.png"
                 style="width: 100%; outline: 0px; filter: saturate(1.15);"
                 onclick="openModal();currentSlide(6)"
                 class="p-0 m-0 w-full leading-5 text-black cursor-pointer"
@@ -1004,24 +1004,35 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
             </div>
             <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
               <img
-                src="https://www.eluniversal.com.mx/sites/all/themes/eluniversal/infografiatutoweb7.png"
+                src="https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb7.png"
                 style="width: 100%; outline: 0px; filter: saturate(1.15);"
                 onclick="openModal();currentSlide(7)"
                 class="p-0 m-0 w-full leading-5 text-black cursor-pointer"
                 pinger-seen="true"
               />
             </div>
-
-            <div class="p-0 m-0 leading-5 text-black" style="outline: 0px;">
-              <span
-                class="absolute text-5xl font-bold text-white hover:cursor-pointer focus:cursor-pointer focus:text-zinc-400"
-                onclick="closeModal()"
-                style="right: 60px; top: 60px; outline: 0px; text-shadow: rgb(0, 83, 131) 1px 3px; transition: all 0.75s ease-out 0s; z-index: 99;"
-                >×</span
-              >
-            </div>
           </details>
         </div>
+      </div>
+      <div
+        id="faqModal"
+        class="fixed t-0 r-0 p-0 m-0 w-full h-full leading-5 text-black faq-overlay hidden"
+      >
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          id="modalImageContent"
+          src=""
+          class="faq-content-image block m-auto"
+          alt=""
+        />
+        <span
+          class="absolute text-5xl font-bold text-white hover:cursor-pointer focus:cursor-pointer focus:text-zinc-400 faq-close"
+          onclick="closeModal()">×</span
+        >
       </div>
     </main>
     <style>
@@ -1102,6 +1113,26 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
         font-family: work sans, sans-serif;
         height: fit-content;
       }
+
+      .faq-overlay {
+        outline: 0;
+        background: rgb(0 0 0 / 70%);
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+      }
+
+      .faq-close {
+        right: 60px;
+        top: 60px;
+        outline: 0px;
+        text-shadow: rgb(0, 83, 131) 1px 3px;
+        transition: all 0.75s ease-out 0s;
+        z-index: 99;
+        font-size: 50px;
+      }
+
       @media screen and (min-width: 576px) {
         .faq-grid {
           grid-template-columns: 300px 3fr;
@@ -1143,6 +1174,22 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
           });
         });
       });
+
+      const faqModal = document.getElementById("faqModal");
+      const modalImageContent = document.getElementById("modalImageContent");
+
+      function closeModal() {
+        faqModal.classList.add("hidden");
+      }
+
+      function openModal() {
+        faqModal.classList.remove("hidden");
+      }
+
+      function currentSlide(number) {
+        modalImageContent.src = `https://files.eluniversal.com.mx/sites/default/files/faq/infografiatutoweb${number}.png`;
+        console.log("click modalImageContent", modalImageContent);
+      }
 
       document.getElementById(`Acc1`).classList.remove("hidden");
     </script>
