@@ -5,6 +5,8 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import Coupons from '../components/coupons';
 import '../components/coupons/styles.scss';
+import '../components/kiosko/styles.scss';
+import Kiosko from '../components/kiosko';
 ---
 
 <!DOCTYPE html>
@@ -15,6 +17,7 @@ import '../components/coupons/styles.scss';
 	<body>
 		<Header title={SITE_TITLE} />
 		<main class="w-full mx-auto">
+      <Kiosko />
 			<Coupons />
 		</main>
 		<Footer />

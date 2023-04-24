@@ -1,0 +1,45 @@
+.kiosko {
+  &-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0 10px;
+    outline: 0;
+  }
+
+  &-image {
+    width: 172px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    display: inline;
+    outline: 0;
+    filter: saturate(1.15);
+  }
+
+  &-title {
+    font-size: 20px;
+    outline: 0;
+  }
+}
+
+@media screen and (min-width: 578px) {
+  .kiosko {
+    &-container {
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .kiosko {
+    &-container {
+      grid-template-columns: repeat(4, 1fr);
+
+    }
+  }
+}
